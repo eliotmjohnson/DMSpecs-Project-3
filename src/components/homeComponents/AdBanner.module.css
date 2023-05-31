@@ -1,0 +1,41 @@
+.ad-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 21rem;
+}
+
+.ad-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    gap: 1.1rem;
+}
+
+.ad-content>h3{
+    color: aliceblue;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ad-content>h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(197, 103, 26);
+}
+
+.ad-content button {
+    border: none;
+    font-size: 1.1rem;
+    color: aliceblue;
+    background-color: cadetblue;
+    border-radius: 2rem;
+    padding: .8em;
+    transition: scale .5s, box-shadow .5s;
+}
+
+.ad-content button:hover {
+    scale: 1.025;
+    box-shadow: 0 0 1rem 0 aliceblue;
+}

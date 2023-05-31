@@ -1,0 +1,61 @@
+.ad-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 21rem;
+}
+
+.ad-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    gap: 1.1rem;
+}
+
+.ad-content>h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(197, 103, 26);
+}
+
+.recipe-section {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-card {
+    margin: 2rem;
+    max-width: 30rem;
+    border: solid 1px rgb(227, 227, 227);
+    box-shadow: 0 .3rem .2rem -.125rem rgb(182, 182, 182);
+    border-radius: .3rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    padding-bottom: .8rem;
+    height: max-content;
+}
+.firstDiv>p {
+    margin: .5rem;
+    margin-left: 0;
+}
+.detail-card>div {
+    margin-bottom: 2rem;
+}
+
+.detail-card>h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 450;
+}
+
+.detail-card>p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+.detail-card>ul {
+    list-style: none;
+    line-height: 1.5;
+}
