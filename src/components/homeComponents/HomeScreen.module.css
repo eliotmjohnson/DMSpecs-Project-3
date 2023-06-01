@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 19rem;
+    min-height: 20rem;
     margin: 2rem;
     gap: 2rem;
 }

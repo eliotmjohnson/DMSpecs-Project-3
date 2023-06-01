@@ -3,17 +3,25 @@
     align-items: center;
     justify-content: center;
     height: 21rem;
+    overflow: hidden;
+}
+
+.ad-banner>img {
+    position: relative;
+    width: 100%;
+    filter: brightness(30%);
 }
 
 .ad-content {
     display: flex;
+    position: absolute;
     flex-direction: column;
     align-items: center;
     width: 45%;
     gap: 1.1rem;
 }
 
-.ad-content>h3{
+.ad-content>h3 {
     color: aliceblue;
     font-weight: 400;
     text-align: center;

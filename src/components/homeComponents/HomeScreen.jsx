@@ -14,7 +14,6 @@ const HomeScreen = () => {
 		axios
 			.get("https://recipes.devmountain.com/recipes")
 			.then((res) => {
-				// console.log(res.data);
 				dispatch({ type: "recipes fetched", data: res.data });
 			})
 			.catch((error) => console.log(error));

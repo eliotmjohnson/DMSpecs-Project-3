@@ -3,9 +3,17 @@
     align-items: center;
     justify-content: center;
     height: 21rem;
+    overflow: hidden;
+}
+
+.ad-banner>img {
+    position: relative;
+    width: 100%;
+    filter: brightness(30%);
 }
 
 .ad-content {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +30,7 @@
 .recipe-section {
     display: flex;
     justify-content: center;
+    min-height: 28rem;
 }
 
 .detail-card {
@@ -35,10 +44,12 @@
     padding-bottom: .8rem;
     height: max-content;
 }
+
 .firstDiv>p {
     margin: .5rem;
     margin-left: 0;
 }
+
 .detail-card>div {
     margin-bottom: 2rem;
 }
@@ -58,4 +69,15 @@
 .detail-card>ul {
     list-style: none;
     line-height: 1.5;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    height: 85vh;
+    color: rgb(197, 103, 26);
+    text-align: center;
+    background-color: rgb(68, 68, 71);
 }

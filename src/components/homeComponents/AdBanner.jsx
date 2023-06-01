@@ -5,17 +5,8 @@ import { Link } from "react-router-dom";
 
 const AdBanner = () => {
 	return (
-		<div
-			className={classes["ad-banner"]}
-			style={{
-				background: `linear-gradient(
-          190deg,
-          rgba(0, 0, 0, 0.8),
-          rgba(0, 0, 0, 0.8)),
-          url(${salmon})`,
-				backgroundSize: "cover",
-			}}
-		>
+		<div className={classes["ad-banner"]}>
+			<img src={salmon} />
 			<div className={classes["ad-content"]}>
 				<h3>New Recipe</h3>
 				<h1>Pineapple Salmon</h1>
