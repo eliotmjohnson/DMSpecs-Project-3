@@ -1,0 +1,120 @@
+.createRecipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 30rem;
+}
+
+.form input {
+    cursor: text;
+}
+
+.one {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+.one>input {
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+.two {
+    display: flex;
+    gap: 1rem;
+}
+
+.two>span {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.two>span>input {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.three {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.three input {
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+.four {
+    display: flex;
+    gap: 4rem;
+    align-self: flex-start;
+}
+
+.four>section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.four input {
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+.four ul {
+    display: flex;
+    gap: .4rem;
+    flex-direction: column;
+}
+
+.textarea {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    height: 10rem;
+    cursor: text;
+}
+
+.saveBtn {
+    border: none;
+    color: aliceblue;
+    background-color: cadetblue;
+    width: 7rem;
+    height: 2rem;
+    border-radius: .5rem;
+    transition: background-color .5s;
+}
+
+.saveBtn:hover {
+    background-color: rgb(140, 199, 201);
+}
+
+.orangeBtn {
+    border: none;
+    color: aliceblue;
+    background-color: rgb(239, 122, 25);
+    width: 7rem;
+    height: 2rem;
+    border-radius: .5rem;
+    transition: background-color .5s;
+}
+
+.orangeBtn:hover {
+    background-color: rgb(240, 154, 84);
+}
